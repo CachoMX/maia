@@ -17,6 +17,9 @@ const nextConfig = {
       },
     ],
   },
+  // Disable static page generation for pages that require authentication
+  // This ensures all authenticated routes are rendered dynamically
+  output: "standalone",
 };
 
 export default nextConfig;

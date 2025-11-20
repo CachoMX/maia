@@ -19,6 +19,8 @@ import type {
   CaseListItem,
 } from '@/app/types/case'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * POST /api/cases
  *

@@ -17,6 +17,8 @@ import type {
   InterventionListItem,
 } from '@/app/types/intervention'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * POST /api/interventions
  *

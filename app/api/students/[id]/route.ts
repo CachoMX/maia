@@ -16,6 +16,8 @@ import type {
   StudentApiResponse,
 } from '@/app/types/student'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * GET /api/students/[id]
  *

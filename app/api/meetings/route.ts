@@ -17,6 +17,8 @@ import type {
   ParentMeetingListItem,
 } from '@/app/types/meeting'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * POST /api/meetings
  *

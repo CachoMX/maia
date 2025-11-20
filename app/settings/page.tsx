@@ -3,6 +3,8 @@ import { createClient } from '@/lib/supabase/server'
 import { Navigation } from '../dashboard/components/Navigation'
 import SettingsClient from './SettingsClient'
 
+export const dynamic = 'force-dynamic'
+
 export default async function SettingsPage() {
   const supabase = await createClient()
 

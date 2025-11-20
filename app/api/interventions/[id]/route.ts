@@ -17,6 +17,8 @@ import type {
   InterventionApiResponse,
 } from '@/app/types/intervention'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * GET /api/interventions/[id]
  *

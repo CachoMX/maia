@@ -17,6 +17,8 @@ import type {
   CaseApiResponse,
 } from '@/app/types/case'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * GET /api/cases/[id]
  *

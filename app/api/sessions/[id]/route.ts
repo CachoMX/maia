@@ -14,6 +14,8 @@ import type {
   SessionApiResponse,
 } from '@/app/types/session'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * PATCH /api/sessions/[id]
  *

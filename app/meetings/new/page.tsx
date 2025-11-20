@@ -3,6 +3,8 @@ import { createClient } from '@/lib/supabase/server'
 import { Navigation } from '../../dashboard/components/Navigation'
 import ScheduleMeetingClient from './ScheduleMeetingClient'
 
+export const dynamic = 'force-dynamic'
+
 export default async function NewMeetingPage() {
   const supabase = await createClient()
   const { data: { user }, error: authError } = await supabase.auth.getUser()

@@ -20,6 +20,8 @@ import type {
   FileListItem,
 } from '@/app/types/file'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * POST /api/files
  *

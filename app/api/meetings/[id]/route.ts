@@ -14,6 +14,8 @@ import type {
   ParentMeetingApiResponse,
 } from '@/app/types/meeting'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * PATCH /api/meetings/[id]
  *

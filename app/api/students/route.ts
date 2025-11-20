@@ -17,6 +17,8 @@ import type {
   StudentListItem,
 } from '@/app/types/student'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * POST /api/students
  *

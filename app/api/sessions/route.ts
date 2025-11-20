@@ -17,6 +17,8 @@ import type {
   SessionListItem,
 } from '@/app/types/session'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * POST /api/sessions
  *

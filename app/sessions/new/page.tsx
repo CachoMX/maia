@@ -4,6 +4,8 @@ import { createClient } from '@/lib/supabase/server'
 import { Navigation } from '../../dashboard/components/Navigation'
 import DocumentSessionForm from '@/app/components/sessions/DocumentSessionForm'
 
+export const dynamic = 'force-dynamic'
+
 export default async function NewSessionPage() {
   const supabase = await createClient()
   const { data: { user }, error: authError } = await supabase.auth.getUser()
