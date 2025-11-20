@@ -23,7 +23,8 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\nAdd complete Maia SSS application with all features\n\nMajor features implemented:\n- Dashboard with real-time stats and analytics\n- Complete case management system with 8 action modals\n- Student directory with detailed profiles\n- Interventions tracking with progress monitoring\n- Parent meetings scheduling and management\n- Sessions documentation system\n- Analytics with charts and CSV export\n- Full Settings page with profile management\n\nTechnical improvements:\n- Fixed RLS policies to prevent infinite recursion\n- Implemented all Week 3 features\n- Added 17 RESTful API endpoints\n- Complete authentication system\n- Responsive design with Maia branding\n- Test data loading scripts\n- Comprehensive documentation\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git push:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(findstr:*)"
     ],
     "deny": [],
     "ask": []
