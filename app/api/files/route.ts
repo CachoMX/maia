@@ -97,15 +97,15 @@ export async function POST(request: NextRequest) {
       .insert({
         file_name: body.file_name,
         file_url: body.file_url,
-        file_type: body.file_type || null,
-        file_size: body.file_size || null,
-        case_id: body.case_id || null,
-        protocol_step_id: body.protocol_step_id || null,
-        session_id: body.session_id || null,
-        evaluation_id: body.evaluation_id || null,
-        action_plan_item_id: body.action_plan_item_id || null,
+        file_type: body.file_type ?? null,
+        file_size: body.file_size ?? null,
+        case_id: body.case_id ?? null,
+        protocol_step_id: body.protocol_step_id ?? null,
+        session_id: body.session_id ?? null,
+        evaluation_id: body.evaluation_id ?? null,
+        action_plan_item_id: body.action_plan_item_id ?? null,
         uploaded_by: user.id,
-      })
+      } as any)
       .select(
         `
         *,

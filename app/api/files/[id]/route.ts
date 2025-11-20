@@ -100,7 +100,7 @@ export async function DELETE(
     // const filePath = extractPathFromUrl(existingFile.file_url)
     // await supabase.storage.from('bucket-name').remove([filePath])
 
-    const response: FileApiResponse<{ id: string; file_url: string }> = {
+    const response: FileApiResponse<{ id: string; file_url: string | null }> = {
       data: {
         id: fileId,
         file_url: existingFile.file_url
