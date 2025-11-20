@@ -7,6 +7,9 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+// Force dynamic rendering for all routes
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: "Maia - Student Support Services",
   description: "Illuminating Pathways to Student Success",
