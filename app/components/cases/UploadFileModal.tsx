@@ -121,7 +121,7 @@ export default function UploadFileModal({
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Upload File</h2>
                 <p className="text-sm text-gray-600 mt-1">
-                  Add documents and files to {caseData.student?.name}'s case
+                  Add documents and files to {caseData.student?.name}&apos;s case
                 </p>
               </div>
               <button

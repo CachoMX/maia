@@ -231,7 +231,7 @@ export default function EditCaseModal({
                 <div>
                   <h4 className="text-sm font-medium text-blue-900 mb-1">Note</h4>
                   <p className="text-xs text-blue-800">
-                    Editing case details will create an audit log entry. Case manager and opened date cannot be changed here - use the "Reassign Case Manager" button for that purpose.
+                    Editing case details will create an audit log entry. Case manager and opened date cannot be changed here - use the &quot;Reassign Case Manager&quot; button for that purpose.
                   </p>
                 </div>
               </div>

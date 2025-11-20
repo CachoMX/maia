@@ -121,7 +121,7 @@ export default function ChangeStatusModal({
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Change Case Status</h2>
                 <p className="text-sm text-gray-600 mt-1">
-                  Update the status for {caseData.student?.name}'s case
+                  Update the status for {caseData.student?.name}&apos;s case
                 </p>
               </div>
               <button
@@ -237,7 +237,7 @@ export default function ChangeStatusModal({
                   <div>
                     <h4 className="text-sm font-medium text-yellow-900 mb-1">Note about closing cases</h4>
                     <p className="text-xs text-yellow-800">
-                      Consider using the "Close Case" button instead, which includes additional closure documentation and summary options.
+                      Consider using the &quot;Close Case&quot; button instead, which includes additional closure documentation and summary options.
                     </p>
                   </div>
                 </div>

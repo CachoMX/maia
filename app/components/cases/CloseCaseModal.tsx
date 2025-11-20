@@ -113,7 +113,7 @@ export default function CloseCaseModal({
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">Close Case</h2>
                 <p className="text-sm text-gray-600 mt-1">
-                  Finalize and close {caseData.student?.name}'s case
+                  Finalize and close {caseData.student?.name}&apos;s case
                 </p>
               </div>
               <button
@@ -145,7 +145,7 @@ export default function CloseCaseModal({
                 <div>
                   <h4 className="text-sm font-bold text-red-900 mb-1">Important: Closing This Case</h4>
                   <p className="text-sm text-red-800">
-                    This action will mark the case as closed. You will still be able to view the case and all its data, but you won't be able to add new interventions or sessions. Make sure all documentation is complete before proceeding.
+                    This action will mark the case as closed. You will still be able to view the case and all its data, but you won&apos;t be able to add new interventions or sessions. Make sure all documentation is complete before proceeding.
                   </p>
                 </div>
               </div>
