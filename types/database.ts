@@ -352,6 +352,64 @@ export interface Database {
           }
         ]
       }
+      files: {
+        Row: {
+          id: string
+          case_id: string
+          uploaded_by: string | null
+          file_name: string
+          file_type: string | null
+          file_size: number | null
+          file_url: string | null
+          storage_path: string | null
+          description: string | null
+          tags: string[] | null
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          case_id: string
+          uploaded_by?: string | null
+          file_name: string
+          file_type?: string | null
+          file_size?: number | null
+          file_url?: string | null
+          storage_path?: string | null
+          description?: string | null
+          tags?: string[] | null
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          case_id?: string
+          uploaded_by?: string | null
+          file_name?: string
+          file_type?: string | null
+          file_size?: number | null
+          file_url?: string | null
+          storage_path?: string | null
+          description?: string | null
+          tags?: string[] | null
+          created_at?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'files_case_id_fkey'
+            columns: ['case_id']
+            referencedRelation: 'cases'
+            referencedColumns: ['id']
+          },
+          {
+            foreignKeyName: 'files_uploaded_by_fkey'
+            columns: ['uploaded_by']
+            referencedRelation: 'users'
+            referencedColumns: ['id']
+          }
+        ]
+      }
       parent_meetings: {
         Row: {
           id: string
